@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <!-- <section id="display">
+            0
+        </section> -->
+        <section>
+
+            <div id="keys">
+                <button onclick="appendtodisplay('/')" class="operator-btn">&divide;</button>
+                <button onclick="appendtodisplay('%')" class="operator-btn">&percnt;</button>
+                <button onclick="removeNO()" class="operator-btn">&larr;</button>
+                <button onclick="cleardisplay()" class="operator-btn">C</button>
+                <button onclick="appendtodisplay('+')" class="operator-btn">&plus;</button>
+                <button onclick="appendtodisplay('7')">7</button>
+                <button onclick="appendtodisplay('8')">8</button>
+                <button onclick="appendtodisplay('9')">9</button>
+                <button onclick="appendtodisplay('-')" class="operator-btn">&minus;</button>
+                <button onclick="appendtodisplay('4')">4</button>
+                <button onclick="appendtodisplay('5')">5</button>
+                <button onclick="appendtodisplay('6')">6</button>
+                <button onclick="appendtodisplay('*')" class="operator-btn">&times;</button>
+                <button onclick="appendtodisplay('1')">1</button>
+                <button onclick="appendtodisplay('2')">2</button>
+                <button onclick="appendtodisplay('3')">3</button>
+                <button onclick="calculate()" class="operator-btn">=</button>
+                <button onclick="appendtodisplay('0')">0</button>
+                <button onclick="appendtodisplay('00')">00</button>
+                <button onclick="appendtodisplay('.')">.</button>
+                
+                
+
+
+            </div>
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

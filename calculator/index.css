@@ -64,7 +64,7 @@ button {
 
 button:hover {
     
-    background-color: rgba(194, 184, 184,0.01);
+    background-color: rgba(194, 184, 184,0.2);
     
 }
 
@@ -78,7 +78,7 @@ button:active {
     
 }
 .operator-btn:hover{ 
-    background-color: rgba(223, 166, 60,0.01); 
+    background-color: rgba(223, 166, 60,0.2); 
 }
 .operator-btn:active{ 
     background-color: rgb(224, 162, 46); 
